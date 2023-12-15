@@ -115,8 +115,8 @@ nav  button{
 }
 .sticker{
     position: relative;
-    top: 190px;
-    height: 280px;
+    top: 220px;
+   
 }
 .line-last-header-div{
     height: 1px;
@@ -124,3 +124,4 @@ nav  button{
     position: relative;
     bottom: 50px;
 }
+
