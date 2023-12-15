@@ -6,6 +6,7 @@
 img{
     width: 100%;
 }
+/*navbar*/
 nav{
     display: flex;
     width: 97.8%;
@@ -54,4 +55,72 @@ nav  button{
 }
 .login{
     padding-top: 2%;
+}
+
+/*header-first-section*/
+
+.header-first-section{
+    display: flex;
+}
+
+.header-text{
+    width: 35%;
+    padding: 1.5% 0% 0% 4%;
+    position: relative;
+    top: 200px;
+}
+.why-qrates{
+    border: 2px solid black;
+    width: 25%;
+    text-align: center;
+    padding: 5px 2px 5px 2px;
+    margin-bottom:35px;
+    font-weight: bold;
+    font-size: small;
+}
+.header-text h1{
+    font-size: 250%;
+}
+.header-paragraph{
+    font-weight: bold;
+    margin-top: 5%;
+    font-size: larger;
+}
+.first-img{
+    width: 49%;
+    position: relative;
+    left: 3%;
+    top: 100px;
+    border: 2px solid black;
+    transform: rotate(7deg);
+}
+.first-img img{
+    display: block;
+}
+.second-img{
+    width: 43%;
+    position: relative;
+    left: 10%;
+    bottom: 50px;
+    transform: rotate(-6deg);
+    border: 2px solid black;
+    z-index: 99;
+}
+.second-img img{
+    display: block; 
+}
+.header-second-section{
+    display: flex;
+    gap: 20%;
+}
+.sticker{
+    position: relative;
+    top: 190px;
+    height: 280px;
+}
+.line-last-header-div{
+    height: 1px;
+    background-color: black;
+    position: relative;
+    bottom: 50px;
 }
