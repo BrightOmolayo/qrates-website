@@ -125,3 +125,26 @@ nav  button{
     bottom: 50px;
 }
 
+/* small mobile  devices*/
+@media screen and (max-width: 480px) {
+    .wrapper{
+        display: none;
+    }
+}
+
+/*  mobile  devices*/
+@media screen and (max-width: 767px) {
+    .wrapper{
+        display: none;
+    }
+}
+
+/*  small laptops  devices*/
+@media (min-width: 768px) and (max-width: 1023px){
+    .wrapper{
+        display: block;
+    }
+}
+/* large laptops  devices*/
+
+@media (min-width: 1281px) and (max-width: 1440px){}
