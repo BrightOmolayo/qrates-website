@@ -125,6 +125,224 @@ nav  button{
     bottom: 50px;
 }
 
+/* main*/
+.first-paragraph{
+    text-align: center;
+    padding: 5% 2% 8% 2%;
+    font-weight: bold;
+}
+
+.main-first-two-in-one-container{
+    display: flex;
+}
+.crowdfunding{
+    border: 2px solid black;
+    background-color: yellow;
+    width: 50%;
+    text-align: center;
+}
+.press-and-sell{
+    border: 2px solid black;
+    background-color: #81836c;
+    width: 50%;
+    text-align: center;
+}
+.no-risk{
+    padding: 2% 1% 2% 1%;
+    width: 26%;
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    left: 36%;
+    margin: 15% 0% 5% 0%;
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+}
+.crowdfunding-h2{
+    font-size: 180%;
+    margin-bottom: 5%;
+}
+.crowdfunding-paragragph{
+    line-height: 160%;
+}
+.crowndfunding-img{
+    width: 60%;
+    margin: 6% 0% 12% 0%;
+    position: relative;
+    left: 20%;
+}
+.crowdfunding-button{
+    width: 35%;
+    height: 38px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    border: transparent;
+    margin-bottom: 13%;
+}
+
+
+.get-into-it{
+    padding: 2% 1% 2% 1%;
+    width: 19%;
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    left: 36%;
+    margin: 15% 0% 5% 0%;
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+}
+.press-and-sell-h2{
+    font-size: 180%;
+    margin-bottom: 5%;
+}
+.press-and-sell-paragragph{
+    line-height: 160%;
+}
+.press-and-sell-img{
+    width: 80%;
+    margin: 8% 0% 12% 0%;
+    position: relative;
+    left: 13%;
+}
+.press-and-sell-button{
+    width: 35%;
+    height: 38px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    border: transparent;
+    margin-bottom: 13%;
+}
+
+/*div-under-the-first-two-in-one-container*/
+
+.div-under-the-first-two-in-one-container{
+    padding: 3% 2% 5% 2%;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.under-div-paragragh{
+    padding:2% 0% 0% 5% ;
+    line-height: 180%;
+}
+.div-under-the-first-two-in-one-container a{
+    position: relative;
+    left: 75%;
+    color: white;
+    bottom: 24px;
+}
+
+/*third main section*/
+
+.main-second-container{
+    display: flex;
+}
+.second-container-first-div{
+    width: 50%;
+    text-align: center;
+    margin-top: 22%;
+}
+.services{
+    border: 3px solid black;
+    width: 24%;
+    position: relative;
+    left: 37%;
+    font-weight: bolder;
+    padding: 7px 4px  7px 4px;
+    margin-top: 5%;
+    margin-bottom: 4%; 
+}
+.second-container-first-div-h1{
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+    font-size: 260%;
+}
+
+.Two-men-img{
+    width: 55%;
+    margin: 15% 2% 15% 2%;
+    transform: rotate(-10deg);
+    position: relative;
+    left: 24.2%;
+    border: 2px solid black;
+}
+.Two-men-img img{
+    display: block;
+}
+.second-container-first-div-paragraph{
+    font-size: 118%;
+    padding: 5% 2% 8% 2%;
+    font-weight: bold;
+}
+
+.second-container-first-div button{
+    background-color: white;
+    color: black;
+    width: 37%;
+    border-radius: 44px;
+    height: 48px;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 1%;
+    margin-bottom: 8%;
+    border: 2px solid black;
+}
+/*ends here*/
+
+/*accordion*/
+.second-container-accordion{
+    width: 50%;
+}
+
+.accordion-section {
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .accordion-title {
+    background-color: #f9f9f9;
+    padding: 30px;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid black;
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #81836c;
+    border: 1px solid black;
+  }
+  
+  .accordion-content.show {
+      padding: 10px;
+      max-height: 300px; /* Adjust the max height as needed */
+  }
+  .accordion h1{
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    font-size: 240%;
+    padding: 4% 1% 4% 1%;
+  }
+  .accordion a{
+    color: black;
+    margin-top: 5px;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  .accordion p{
+    margin-bottom: 7px;
+  }
+/*accordion ends here*/
 /* small mobile  devices*/
 @media screen and (max-width: 480px) {
     .wrapper{
