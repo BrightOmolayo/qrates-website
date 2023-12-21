@@ -516,6 +516,108 @@ nav  button{
 }
 /*links ends here*/
 
+/*main-fourth-container*/
+.main-fourth-container{
+    display: flex;
+}
+.first-div{
+    background-color: yellow;
+    width: 50%;
+    border: 2px solid black;
+}
+.second-div{
+    width: 50%;
+    border: 2px solid black;
+}
+.second-div img{
+    display: block;
+}
+.artist-on-qrates{
+    border: 2px solid black;
+    width: 27%;
+    background-color: white;
+    margin: 4% 0% 0% 3%;
+}
+aside{
+    margin-top: 45%;
+    font-size: large;
+    font-weight: bold;
+    padding-left: 5%;
+}
+.numbers{
+    position: relative;
+    top: 40%;
+    display: flex;
+}
+.numbers p{
+    margin: 2%;
+}
+.one{
+    background-color: black;
+    color: white;
+    width: 5%;
+
+    text-align: center;
+    border-radius: 17px;
+}
+.two{
+    border: 2px solid black;
+    width: 5%;
+    text-align: center;
+    border-radius: 7px;
+}
+/*main-fourth-container ens here*/
+
+/* footer*/
+footer{
+    background-color: black;
+    padding-top: 8%;
+    color: white;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    list-style: none;
+}
+.footerlinks{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-logo{
+    width: 20%;
+}
+/*footer ends here*/
+
+/*under-fourth-two-in-one-container*/
+.under-fourth-two-in-one-container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 6% 0% 6% 0%;
+}
+.vinyl-studio{
+    border: 2px solid white;
+    width: 10%;
+    position: relative;
+    left: 40%;
+    margin-bottom: 3%;
+}
+
+.main-icons{
+    width: 20%;
+    display: flex;
+    position: relative;
+    left: 40%;
+}
+.main-icon-one{
+    background-color: darkcyan;
+}
+.main-icon-two{
+    background-color: khaki;
+}
+/**/
 /* small mobile  devices*/
 @media screen and (max-width: 480px) {
     .wrapper{
