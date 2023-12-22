@@ -356,9 +356,9 @@ nav  button{
 
 /*main last section*/
 .main-third-container{
+    display: none;
     text-align: center;
     padding-top: 12%;
-    display: flex;
 
 }
 .main-third-container-first-div{
@@ -646,17 +646,416 @@ footer a{
 /**/
 /* small mobile  devices*/
 @media screen and (max-width: 480px) {
-    .wrapper{
-        display: none;
-    }
+.wrapper{    
+    padding: 0% 7% 2% 7%;
+}
+
+/*navbar*/
+nav{
+     display: none;
+}
+
+/*header-first-section*/
+
+.header-first-section{
+    display:block;
+}
+
+.header-text{
+    width: 98%;
+    padding: 1.5% 0% 0% 4%;
+    position: relative;
+    top: 10px;
+}
+.why-qrates{
+    border: 2px solid black;
+    width: 28%;
+    text-align: center;
+    padding: 5px 2px 5px 2px;
+    margin-bottom:39px;
+    font-weight: bold;
+    font-size: small;
+}
+.header-text h1{
+    font-size: 270%;
+}
+.header-paragraph{
+    font-weight: bold;
+    margin-top: 5%;
+    font-size: larger;
+}
+.first-img{
+    width: 60%;
+    position: relative;
+    left: 15%;
+    top: 20px;
+    border: 2px solid black;
+    transform: rotate(0deg);
+}
+.first-img img{
+    display: block;
+}
+.header-second-section{
+    display: none;
+}
+.line-last-header-div{
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: none;
+}
+
+/* main*/
+.first-paragraph{
+    text-align: center;
+    padding: 10% 2% 8% 2%;
+    font-weight: bold;
+}
+
+.main-first-two-in-one-container{
+    display: block;
+}
+.crowdfunding{
+    border: 2px solid black;
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.press-and-sell{
+    border: 2px solid black;
+    background-color: #81836c;
+    width: 100%;
+    text-align: center;
+}
+.no-risk{
+    padding: 2% 1% 2% 1%;
+    width: 40%;
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    left: 30%;
+    margin: 15% 0% 5% 0%;
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+}
+.crowdfunding-h2{
+    font-size: 160%;
+    margin-bottom: 5%;
+}
+.crowdfunding-paragragph{
+    line-height: 110%;
+    padding: 0px 5px 0px 5px;
+    width: 70%;
+    position: relative;
+    left: 12%;
+}
+.crowndfunding-img{
+    width: 60%;
+    margin: 6% 0% 12% 0%;
+    position: relative;
+    left: 20%;
+}
+.crowdfunding-button{
+    width: 35%;
+    height: 38px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    border: transparent;
+    margin-bottom: 13%;
+}
+
+
+.get-into-it{
+    padding: 2% 1% 2% 1%;
+    width: 19%;
+    border: 2px solid black;
+    background-color: white;
+    position: relative;
+    left: 36%;
+    margin: 15% 0% 5% 0%;
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+}
+.press-and-sell-h2{
+    font-size: 180%;
+    margin-bottom: 5%;
+}
+.press-and-sell-paragragph{
+    line-height: 160%;
+}
+.press-and-sell-img{
+    width: 80%;
+    margin: 8% 0% 12% 0%;
+    position: relative;
+    left: 13%;
+}
+.press-and-sell-button{
+    width: 35%;
+    height: 38px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    border: transparent;
+    margin-bottom: 13%;
+}
+
+/*div-under-the-first-two-in-one-container*/
+
+.div-under-the-first-two-in-one-container{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 3% 2% 5% 2%;
+    width: 98%;
+}
+.under-div-paragragh{
+    padding:0% 0% 0% 0% ;
+    line-height: 180%;
+}
+.div-under-the-first-two-in-one-container a{
+    position: relative;
+    left: 0%;
+    color: white;
+    bottom: 24px;
+}
+
+/*third main section*/
+
+.main-second-container{
+    display: block;
+}
+.second-container-first-div{
+    width: 100%;
+    text-align: center;
+    margin: 18% 0% 0% 0%;
+}
+.services{
+    border: 3px solid black;
+    width: 24%;
+    position: relative;
+    left: 37%;
+    font-weight: bolder;
+    padding: 7px 4px  7px 4px;
+    margin-top: 5%;
+    margin-bottom: 4%; 
+}
+.second-container-first-div-h1{
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+    font-size: 260%;
+}
+
+.Two-men-img{
+    width: 55%;
+    margin: 15% 2% 15% 2%;
+    transform: rotate(-10deg);
+    position: relative;
+    left: 24.2%;
+    border: 2px solid black;
+}
+.Two-men-img img{
+    display: block;
+}
+.second-container-first-div-paragraph{
+    font-size: 118%;
+    padding: 5% 2% 8% 2%;
+    font-weight: bold;
+}
+
+.second-container-first-div button{
+    background-color: white;
+    color: black;
+    width: 37%;
+    border-radius: 44px;
+    height: 48px;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border: 2px solid black;
+}
+/*ends here*/
+
+/*accordion*/
+
+.second-container-accordion{
+    width: 100%;
+    margin-top: 11%;
+    margin-bottom: 12%;
+}
+
+.accordion{
+    width: 95%;
+    font-size: larger;
+}
+
+.accordion-section {
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .accordion-title {
+    background-color: #f9f9f9;
+    padding: 40px 30px 40px 30px;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid black;
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #81836c;
+    border: 1px solid black;
+  }
+  
+  .accordion-content.show {
+      padding: 10px;
+      max-height: 300px; /* Adjust the max height as needed */
+  }
+  .accordion h1{
+    background-color: #000000;
+    color: white;
+    width: 98%;
+    font-size: 240%;
+    padding: 4% 1% 4% 1%;
+  }
+  .accordion a{
+    color: black;
+    margin-top: 5px;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  .accordion p{
+    margin-bottom: 7px;
+  }
+
+  
+/*accordion ends here*/
+
+/*main last section*/
+.main-third-container{
+    display: none;
+}
+/*main last section ends here*/
+
+/*growing community section*/
+.growing-community{
+    display: none;
+}
+
+/*growing community section ends here*/
+
+
+/*grid-container*/
+.grid-container{
+    display: none;
+}
+
+.links{
+    display:none;
+}
+/*links ends here*/
+
+/*main-fourth-container*/
+.main-fourth-container{
+    display: none;
+}
+/*main-fourth-container ends here*/
+
+/* footer*/
+footer{
+    background-color: black;
+    padding-top: 18%;
+    color: white;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    list-style: none;
+}
+.footerlinks{
+    display: block;
+    justify-content: space-around;
+}
+
+.footer-logo{
+    width:30%;
+    margin-left: 5%;
+    padding-top: 3%;
+}
+
+.flex{
+    display: block;
+}
+.fab {
+    background-color: white;
+    color: black;
+}
+/*footer ends here*/
+
+/*under-fourth-two-in-one-container*/
+.under-fourth-two-in-one-container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 6% 0% 6% 0%;
+    display: none;
+}
+.vinyl-studio{
+    border: 2px solid white;
+    width: 10%;
+    position: relative;
+    left: 45%;
+    margin-bottom: 3%;
+}
+.under-fourth-two-in-one-container h2{
+    padding: 0% 0% 2% 0%;
+}
+.under-fourth-two-in-one-container p{
+    padding: 0% 0% 2% 0%;
+}
+.under-fourth-two-in-one-container button{
+    width: 20%;
+    background-color: yellow;
+    margin-top: 3%;
+    height: 30px;
+    border-radius: 40px;
+}
+.main-icons{
+    width: 20%;
+    display: flex;
+    position: relative;
+    left: 40%;
+}
+.main-icon-one{
+    background-color: darkcyan;
+    z-index: 99;
+}
+.main-icon-two{
+    background-color: khaki;
+    border-radius: 50px;
+    position: relative;
+    right: 14px;
+}
 }
 
 /*  mobile  devices*/
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
     .wrapper{
         display: none;
     }
-}
+}*/
 
 /*  small laptops  devices*/
 @media (min-width: 768px) and (max-width: 1023px){
