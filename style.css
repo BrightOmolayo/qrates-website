@@ -977,12 +977,14 @@ footer{
     background-color: black;
     padding-top: 18%;
     color: white;
+    text-align: center;
 }
 footer a{
     color: white;
     text-decoration: none;
-    padding: 2px;
+    padding: 2% 2% 9% 2%;
     list-style: none;
+    margin: 2%;
 }
 .footerlinks{
     display: block;
@@ -990,17 +992,24 @@ footer a{
 }
 
 .footer-logo{
-    width:30%;
-    margin-left: 5%;
-    padding-top: 3%;
+    display: none;
 }
 
 .flex{
     display: block;
 }
+
 .fab {
     background-color: white;
     color: black;
+}
+.footerLastDiv{
+    display: inline-block;
+    padding: 6%;
+}
+.icons{
+    margin: 3% 0% 5% 0%;
+    gap: 3%;
 }
 /*footer ends here*/
 
