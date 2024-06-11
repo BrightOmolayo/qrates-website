@@ -16,12 +16,35 @@
                <div class="navlogo">
                   <img src="./images/logo.svg" alt="logo">
                </div> 
-
+               <div class="iconForMobile">
+                   <div class="mobileSocialIconsForNav">
+                    <i id="tabNavIcon"  class="fa-solid fa-magnifying-glass "></i>
+                    <i id="tabNavIcon" class="fa-solid fa-cart-shopping"></i>
+                    <i id="tabNavIcon" class="fa-solid fa-bars"></i>
+                   </div>
+                   <div class="forMobileDropdown" style="display: none;">
+                        <div class="navAccordion">
+                            <div class="accordion-section">
+                                <div class="accordion-title" onclick="toggleSection(this)">DISCOVER<i class="fa-solid fa-chevron-down"></i></div>
+                                <div class="accordion-content">
+                                    <ul>
+                                        <li><a href="./index.html">Records</a></li>
+                                        <li><a href="./index.html">Cassette</a></li>
+                                        <li><a href="./index.html">Stories</a></li>
+                                        <li><a href="./index.html">Qrates Curated</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>FOR ARTISTS</div>
+                        <div>FOR FANS</div>
+                    </div>
+               </div>
                <ul class="nav-first">
                 <li>DISCOVER</li>
                 <li>SEARCH</li>
                 <li class="nav-why-grates">WHY QRATES</li>
-                <li>CART</li>
+                <li class="cart">CART</li>
                </ul>
 
                <ul class="login-button">
@@ -40,13 +63,23 @@
                         <br> Without the<br>barriers.
                     </h1>
                     <p class="header-paragraph">
-                        Full-service pressing, a global retail <br> network, customer support - and <br> you keep up to 85% of profits.
+                        Full-service pressing, a global retail <br> network, customer support - and <br> you keep up to 85% of profits.<i class="fa-solid fa-arrow-down arrow-down "></i>
                     </p>
             
                 </div>
-    
-                <div class="first-img">
-                    <img src="./images/header-first-img.jpg" alt="A man holing a paper">
+                <div class="headingforTabView">
+                    <h1><span>QRATES</span> MUSIC IN YOUR HANDS</h1>
+                </div>
+                <div class="tabHeaderImgs">
+                   <div class="okay">
+                    <img src="./images/ok-56835833.png" alt="OKay sticker">
+                   </div>
+                    <div class="first-img">
+                        <img src="./images/header-first-img.jpg" alt="A man holing a paper">
+                    </div>
+                </div>
+                <div class="paraforTabView">
+                    <p> Full-service pressing, a global retail <br> network, customer support - and <br> you keep up to 85% of profits.<i class="fa-solid fa-arrow-down arrow-down "></i></p>
                 </div>
             </div>
 
@@ -58,7 +91,10 @@
                     <img src="./images/sticker.svg" alt="Sticker">
                 </div>
             </div>
-
+            <div class="buttonforTabview">
+                <button class="buttonforTab1">FOR FAN</button>
+                <button class="buttonforTab2">FOR ARTIST</button>
+            </div>
             <div class="line-last-header-div"></div>
 
         </header>
@@ -157,7 +193,7 @@
                                 Making Records
                         </h1>
                         <div class="accordion-section">
-                            <div class="accordion-title" onclick="toggleSection(this)">Design & Customization</div>     
+                            <div class="accordion-title" onclick="toggleSection(this)">Design & Customization <i class="fa-solid fa-chevron-down"></i></div>     
                             <div class="accordion-content">
                                 <p>With over 40 colors and over 120,000 variations, control what your record will look like.</p>
                                 <a href="./404.html" target="_blank">LEARN MORE</a>
@@ -165,7 +201,7 @@
                         </div>
                     
                         <div class="accordion-section">
-                            <div class="accordion-title" onclick="toggleSection(this)">Mastering</div>
+                            <div class="accordion-title" onclick="toggleSection(this)">Mastering <i class="fa-solid fa-chevron-down"></i></div>
                             <div class="accordion-content">
                                 <p>Have your music mastered by engineers who specialize in mastering for vinyl.</p>
                                 <a href="./404.html" target="_blank">LEARN MORE</a>
@@ -173,7 +209,7 @@
                         </div>
    
                         <div class="accordion-section">
-                            <div class="accordion-title" onclick="toggleSection(this)">Artwork Assistance</div>
+                            <div class="accordion-title" onclick="toggleSection(this)">Artwork Assistance <i class="fa-solid fa-chevron-down"></i></div>
                             <div class="accordion-content">
                                 <p>Our team can help you optimize your artwork and packaging so your vinyl looks as good as it sounds.</p>
                                 <a href="./404.html" target="_blank">LEARN MORE</a>
@@ -181,7 +217,7 @@
                         </div>
     
                         <div class="accordion-section">
-                            <div class="accordion-title" onclick="toggleSection(this)">Vinyl Pressing & Cassette Duplication</div>
+                            <div class="accordion-title" onclick="toggleSection(this)">Vinyl Pressing & Cassette Duplication <i class="fa-solid fa-chevron-down"></i></div>
                             <div class="accordion-content">
                                 <p>We've selected partners around the globe to provide products and services at reasonable prices and with excellent sound quality. With uncompromising partners, Qrates provides the best prices while maintaining our commitment to quality.</p>
                                 <a href="./404.html" target="_blank">LEARN MORE</a>
@@ -192,7 +228,7 @@
                             <h1>
                                 Storage & Distribution
                             </h1>
-                            <div class="accordion-title" onclick="toggleSection(this)">Storage & Distribution</div>
+                            <div class="accordion-title" onclick="toggleSection(this)">Storage & Distribution <i class="fa-solid fa-chevron-down"></i></div>
                             <div class="accordion-content">
                                 <p>At our warehouses in US, UK, and Japan, with no minimums or fees.</p>
                                 <a href="./404.html" target="_blank">LEARN MORE</a>
@@ -200,7 +236,7 @@
                         </div>
     
                         <div class="accordion-section">
-                            <div class="accordion-title" onclick="toggleSection(this)">sell with qrates</div>
+                            <div class="accordion-title" onclick="toggleSection(this)">sell with qrates <i class="fa-solid fa-chevron-down"></i></div>
                             <div class="accordion-content">
                                 <p>Sell your record in the Qrates shop, directly connecting with an established community of music lovers and stores worldwide.</p>
                                 <a href="./404.html" target="_blank">LEARN MORE</a>
@@ -208,7 +244,7 @@
                         </div>
     
                         <div class="accordion-section">
-                            <div class="accordion-title" onclick="toggleSection(this)">Digital download</div>
+                            <div class="accordion-title" onclick="toggleSection(this)">Digital download <i class="fa-solid fa-chevron-down"></i></div>
                             <div class="accordion-content">
                                 <p>Make your music available for digital download in our store too.</p>
                                 <a href="./404.html" target="_blank">LEARN MORE</a>
@@ -216,7 +252,7 @@
                         </div>
     
                         <div class="accordion-section">
-                            <div class="accordion-title" onclick="toggleSection(this)">Retail distribution</div>
+                            <div class="accordion-title" onclick="toggleSection(this)">Retail distribution <i class="fa-solid fa-chevron-down"></i></div>
                             <div class="accordion-content">
                                 <p>Simply create a Qrates page, and start your project to collect orders from 150 affiliated record stores and distributors worldwide. Let us handle the fulfillment and shipping and you focus on selling records!</p>
                                 <a href="./404.html" target="_blank">LEARN MORE</a>
@@ -227,7 +263,7 @@
                             <h1>
                                 Suppport
                             </h1>
-                            <div class="accordion-title" onclick="toggleSection(this)"> customer support</div>
+                            <div class="accordion-title" onclick="toggleSection(this)"> customer support <i class="fa-solid fa-chevron-down"></i></div>
                             <div class="accordion-content">
                                 <p>Our dedicated customer care team is ready to help--from order updates to refunds, returns, or exchanges. We'll handle it.</p>
                                 <a href="./404.html" target="_blank">LEARN MORE</a>
@@ -235,7 +271,7 @@
                         </div>
     
                         <div class="accordion-section">
-                            <div class="accordion-title" onclick="toggleSection(this)"> Artist support</div>
+                            <div class="accordion-title" onclick="toggleSection(this)"> Artist support<i class="fa-solid fa-chevron-down"></i></div>
                             <div class="accordion-content">
                                 <p>
                                     Our Qrates team can guide you through all the technical details, making the production process low stress and hassle-free.
@@ -301,7 +337,7 @@
                     Join a growing community.
                 </h2>
                 <p class="growing-community-paragraph">
-                    We're buiilding a home for the next generation of vinyl lover. <br>
+                    We're building a home for the next generation of vinyl lover. <br>
                     get in front of fans, connect with artists, labels and stores.
                 </p>
                 <a href="" class="button3">
@@ -318,10 +354,10 @@
             </div>
 
             <div class="links">
-                <a href="" class="cow">CHILLED COW</a> IS ON QRATES
-                <a href="" class="sol">SOL</a> IS ON QRATES
-                <a href="" class="vuflpeck">VUFLPECK</a> IS ON QRATES
-                <a href="" class="chillhop">CHILLHOP</a> IS ON QRATES
+                <a href="" class="cow">CHILLED COW</a> <span>IS ON QRATES</span>
+                <a href="" class="sol">SOL</a> <span>IS ON QRATES</span>
+                <a href="" class="vuflpeck">VUFLPECK</a> <span>IS ON QRATES</span>
+                <a href="" class="chillhop">CHILLHOP</a> <span>IS ON QRATES</span>
                 <a href="" class="cow2">CHILLED COW</a>
             </div>
 
@@ -332,7 +368,7 @@
                         <qoute>
                             "The response was overwhelming, it made <br> me wondeered why I haven't pressed any <br> record on vinyl before now, It felt like <br> what people had been waiting for <br>for a long time"
 
-                            - <a href="...">SOL</a>
+                            - <a href="..." class="sol">SOL</a>
                         </qoute>
                     </aside>
                     <div class="numbers">
@@ -349,9 +385,9 @@
                 </div>
             </div>
             <div class="under-fourth-two-in-one-container">
-                <p class="vinyl-studio">VINYL STUDIO</p>
+                <p class="yl-studio" id="vinyl">VINYL STUDIO</p>
                 <h2>Make it real with <br> Qrate Vinyl Studio</h2>
-                <p>Design the look and feel of your vinyl and use the profit calculator to <br> immediately see how much project you will cost, and how much you will earn.</p>
+                <p>Design the look and feel of your vinyl and Cassette and use the profit calculator to <br> immediately see how much project you will cost, and how much you will earn.</p>
                 <div class="main-icons">
                     <div class="main-icon-one"><img src="./images/crowdfunding-img.png" alt=""></div>
                     <div class="main-icon-two"><img src="./images/press-and-sell-img.png" alt=""></div>
@@ -362,150 +398,154 @@
         <footer>
             <div class="footerlinks">
 
-                <div class="footerFirstDiv">
+                <div class="footerLinksFooterforTab footerLinksFooterforTab1">
+                    <div class="footerFirstDiv">
 
-                    <h4>FOR ARTISTS</h4>
-
-                    <ul>
-                        <a href="./404.html" target="_blank">
+                            <h4>FOR ARTISTS</h4>
     
-                            <li>For Artists</li>
-    
-                        </a>
-                        <a href="./404.html" target="_blank">
-    
-                            <li>How it Works</li>
-                        </a>
-                        <a href="./404.html" target="_blank">
-    
-                            <li>Artist Toolkit</li>
-    
-                        </a>
-                        <a href="./404.html" target="_blank">
-    
-                            <li>Referral Program</li>
-    
-                        </a>
-                    </ul>
-    
+                            <ul>
+                                <a href="./404.html" target="_blank">
+        
+                                    <li>For Artists</li>
+        
+                                </a>
+                                <a href="./404.html" target="_blank">
+        
+                                    <li>How it Works</li>
+                                </a>
+                                <a href="./404.html" target="_blank">
+        
+                                    <li>Artist Toolkit</li>
+        
+                                </a>
+                                <a href="./404.html" target="_blank">
+        
+                                    <li>Referral Program</li>
+        
+                                </a>
+                            </ul>
+        
+                    </div>
+        
+                        <div class="footerSecondDiv">
+        
+                            <h4>FOR FANS</h4>
+        
+                            <ul>
+                                <a href="./404.html" target="_blank">
+        
+                                    <li>For Fans</li>
+        
+                                </a>
+                                <a href="./404.html" target="_blank" >
+        
+                                    <li>Records</li>
+        
+                                </a>
+                                <a href="./404.html" target="_blank">
+        
+                                    <li>Cassettes</li>
+        
+                                </a>
+                                <a href="./404.html" target="_blank">
+        
+                                    <li>Stories</li>
+        
+                                </a>
+                                <a href="./404.html" target="_blank">
+        
+                                    <li>Qrates Curated</li>
+        
+                                </a>
+                            </ul>
+        
+                        </div  >
                 </div>
+                <div class="footerLinksFooterforTab footerLinksFooterforTab2">          
+                    <div class="footerThirdDiv">
     
-                <div class="footerSecondDiv">
+                        <h4>OUR COMPANY</h4>
     
-                    <h4>FOR FANS</h4>
+                        <ul>
+                            <a href="./404.html" target="_blank">
     
-                    <ul>
-                        <a href="./404.html" target="_blank">
+                                <li>About Qrates</li>
     
-                            <li>For Fans</li>
+                            </a>
+                            <a href="./404.html" target="_blank">
     
-                        </a>
-                        <a href="./404.html" target="_blank" >
+                                <li>Careers</li>
     
-                            <li>Records</li>
+                            </a>
+                            <a href="./404.html" target="_blank">
     
-                        </a>
-                        <a href="./404.html" target="_blank">
+                                <li>Partners</li>
     
-                            <li>Cassettes</li>
+                            </a>
+                        </ul>
     
-                        </a>
-                        <a href="./404.html" target="_blank">
+                    </div>
     
-                            <li>Stories</li>
+                    <div class="footerFourthDiv">
     
-                        </a>
-                        <a href="./404.html" target="_blank">
+                        <h4>HELP</h4>
     
-                            <li>Qrates Curated</li>
+                        <ul>
     
-                        </a>
-                    </ul>
+                            <a href="./404.html" target="_blank">
     
-                </div  class="footerThirdDiv">
+                                <li>Support Center</li>
     
-                <div>
+                            </a>
+                            <a href="./404.html" target="_blank">
     
-                    <h4>OUR COMPANY</h4>
+                                <li>Contact Us</li>
     
-                    <ul>
-                        <a href="./404.html" target="_blank">
+                            </a>
+                            <a href="./404.html" target="_blank">
     
-                            <li>About Qrates</li>
+                               <li>Returns</li>
     
-                        </a>
-                        <a href="./404.html" target="_blank">
+                            </a>
+                            <a href="./404.html" target="_blank">
     
-                            <li>Careers</li>
+                                <li>Shipping</li>
     
-                        </a>
-                        <a href="./404.html" target="_blank">
+                            </a>
+                        </ul>
     
-                            <li>Partners
-                            </li>
-    
-                        </a>
-                    </ul>
-    
+                    </div>   
                 </div>
-    
-                <div class="footerFourthDiv">
-    
-                    <h4>HELP</h4>
-    
-                    <ul>
-    
-                        <a href="./404.html" target="_blank">
-    
-                            <li>Support Center</li>
-    
-                        </a>
-                        <a href="./404.html" target="_blank">
-    
-                            <li>Contact Us</li>
-    
-                        </a>
-                        <a href="./404.html" target="_blank">
-    
-                            <li>Returns</li>
-    
-                        </a>
-                        <a href="./404.html" target="_blank">
-    
-                            <li>Shipping</li>
-    
-                        </a>
-                    </ul>
-    
-                </div>   
 
 
             </div>
 
-            <div class="flex">
-                <div>
-
-                    <div  class="footer-logo">
-                        <img src="./images/qrates-logo-footer.svg" alt="logo">
-                    </div>
+            <div class="footer-last-line">
+                <div class="icons">
     
-    
+                    <a href="./404.html" target="_blank"><i class="fab fa-facebook facebook" aria-hidden="true" ></i></a>
+                    <a href="./404.html" target="_blank"><i class="fab fa-instagram instagram" aria-hidden="true"></i></a>
+                    <a href="./404.html" target="_blank"><i class="fab fa-twitter twitter" aria-hidden="true"></i></a>
+                </div>
+                <div  class="footer-logo">
+                    <img src="./images/qrates-logo-footer.svg" alt="logo">
                 </div>
     
-                <div class="flex1">
-                    <div class="icons">
+                <div class="footer-social-icon">
+                    <div class="iconsforDesktop">
     
-                        <a href="./404.html" target="_blank"><i class="fab fa-facebook" aria-hidden="true" ></i></a>
-                        <a href="./404.html" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                        <a href="./404.html" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href="./404.html" target="_blank"><i class="fab fa-facebook facebook" aria-hidden="true" ></i></a>
+                        <a href="./404.html" target="_blank"><i class="fab fa-instagram instagram" aria-hidden="true"></i></a>
+                        <a href="./404.html" target="_blank"><i class="fab fa-twitter twitter" aria-hidden="true"></i></a>
                     </div>
         
                     <div class="footerLastDiv">
                         <a href="./404.html" target="_blank">Terms of Service</a>
                         <a href="./404.html" target="_blank">Privacy Policy</a>
                         <a href="./404.html" target="_blank">Legal Information</a>
-                        <a>© TDMS Inc.</a>
+                        <a class="tdms">© TDMS Inc.</a>
                     </div>
+                    <a class="tdmsforTab">© TDMS Inc.</a>
                 </div>
     
             </div>
