@@ -20,26 +20,9 @@
                    <div class="mobileSocialIconsForNav">
                     <i id="tabNavIcon"  class="fa-solid fa-magnifying-glass "></i>
                     <i id="tabNavIcon" class="fa-solid fa-cart-shopping"></i>
-                    <i id="tabNavIcon" class="fa-solid fa-bars"></i>
+                    <i id="tabNavIcon" class="fa-solid fa-bars bars" onclick="dropdown()"></i>
                    </div>
-                   <div class="forMobileDropdown" style="display: none;">
-                        <div class="navAccordion">
-                            <div class="accordion-section">
-                                <div class="accordion-title" onclick="toggleSection(this)">DISCOVER<i class="fa-solid fa-chevron-down"></i></div>
-                                <div class="accordion-content">
-                                    <ul>
-                                        <li><a href="./index.html">Records</a></li>
-                                        <li><a href="./index.html">Cassette</a></li>
-                                        <li><a href="./index.html">Stories</a></li>
-                                        <li><a href="./index.html">Qrates Curated</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div>FOR ARTISTS</div>
-                        <div>FOR FANS</div>
-                    </div>
-               </div>
+                </div>
                <ul class="nav-first">
                 <li>DISCOVER</li>
                 <li>SEARCH</li>
@@ -52,7 +35,33 @@
                 <li class="button"><button>MAKE A RECORD</button></li>
                </ul>
             </nav>
+            <div class="forMobileDropdown" style="display: none;" id="dropDownContent">
+                <div class="navAccordion">
+                    <div class="accordion-section">
+                        <div class="accordion-title" onclick="toggleSection(this)" id="dropdownText1"><h1>DISCOVER</h1><i class="fa-solid fa-chevron-down down "></i></div>
+                        <div class="accordion-content">
+                            <ul>
+                                <li><a href="./index.html">Records</a></li>
+                                <li><a href="./index.html">Cassette</a></li>
+                                <li><a href="./index.html">Stories</a></li>
+                                <li><a href="./index.html">Qrates Curated</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="dropdownText2"><h1>FOR ARTISTS</h1></div>
+                <div id="dropdownText3"><h1>FOR FANS</h1></div>
+                <div class="dropdownIcons">
 
+                    <a href="./404.html" target="_blank" class="facebookLink"><i class="fab fa-facebook " aria-hidden="true" ></i></a>
+                    <a href="./404.html" target="_blank" class="iGLink"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="./404.html" target="_blank" class="twitterLink"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                </div>
+                <div class="dropdownButtons">
+                    <button class="dropdownbutton1">MAKE A RECORD</button>
+                    <button class="dropdownbutton2">LOG IN</button>
+                </div>
+           </div>
             <div class="header-first-section">
                 <div class="header-text">
                     <p class="why-qrates">

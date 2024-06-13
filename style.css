@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "inria";
 }
 @font-face {
     font-family: "inria";
@@ -9,6 +8,9 @@
 }
 img{
     width: 100%;
+}
+.okay{
+    display: none;
 }
 /*navbar*/
 nav{
@@ -83,6 +85,7 @@ nav  button{
     padding: 1.5% 0% 0% 4%;
     position: relative;
     top: 200px;
+    font-family: "inria";
 }
 .why-qrates{
     border: 2px solid black;
@@ -1138,18 +1141,124 @@ footer a{
         margin-bottom: 50px;
         margin-top: 90px;
     } 
- 
+    .dropdownIcons{
+        display: flex;
+        justify-content: flex-start;
+        margin: 10px 0px 30px 16px;
+    } 
+    /* .dropdownIcons a{
+        width: 50px;
+        margin-left: 3px;
+        background-color: #000000;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 23px;
+    } */
+    .dropdownIcons a{
+        width: 50px;
+        height: 50px;
+        margin-left: 3px;
+        background-color: #000000;
+        text-align: center;
+        border-radius: 50%;
+        /* font-size: 29%; */
+    }
+    .dropdownIcons .fab {
+        background-color:transparent;
+        color: white;
+        padding:6px  3px 3px 3px;
+        font-size:30px;
+        margin: 2px;
+    }
+    .forMobileDropdown{
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        z-index: 1;
+        padding-bottom: 60px;
+    }
+    .dropdownButtons{
+        display: block;
+        margin-bottom: 12px;
+    }
+    .dropdownbutton1,
+    .dropdownbutton2{
+        width: 95%;
+        margin-top: 10px;
+        padding: 2% 1%;
+        border-radius: 40px;
+        margin: 2%;
+        /* position: relative;
+        left: 8%; */
+    }
+    .dropdownbutton1{
+        background-color: #000000;
+        color: #ffffff;
+    }
+    .dropdownbutton2{
+        background-color: #ffffff;
+        color: #000000;
+    }
+    .dropdownIcons{
+        display: flex;
+        justify-content: flex-start;
+        margin: 10px 0px 30px 16px;
+    } 
+    @font-face {
+        font-family: "qratesisBold";
+        src: url("./assets/InriaSans-Bold.ttf");
+    }
+    #dropdownText1,
+    #dropdownText2,
+    #dropdownText3{
+        width: 80%;
+        font-weight: 600;
+        font-size: 20px;
+        font-family: "qratesisBold";
+        padding: 5px 0px 5px 30px;
+    }
+    .forMobileDropdown .down{
+        font-size: small;
+        position: relative;
+        right: 60%;
+        padding-top: 20px;
+    }
+    .forMobileDropdown ul{
+        background-color: white;
+        list-style: none;
+        border: transparent;
+        padding-left: 30px;
+    }
+    .forMobileDropdown .accordion-content.show{
+        border: transparent;
+        padding: 0px;
+    }
+    .forMobileDropdown ul li a{
+        color: #000000;
+        text-decoration: none;
+        margin: 16px 1px;
+        font-size: 19px;
+        font-weight: 600;
+    }
+    #dropdownText1{
+        padding: 20px 0px 10px 30px;
+        background-color: white;
+    }
+    .forMobileDropdown .accordion-content{
+        border: -0px transparent;
+    }
+    #bars{
+        z-index: 99;
+    }
 }
 /* small mobile  devices*/
 @media screen and (max-width: 480px) {
     .wrapper{    
         padding: 0%;
     }
-    
     nav{
         justify-content: space-between;
         display: flex;
-        border: 2px solid red;
     }
     .nav-first{
         display: none;
@@ -1161,6 +1270,16 @@ footer a{
     .header-first-section{
         display: block;
         text-align: center;
+        font-family: "inria";
+    }
+    .mobileSocialIconsForNav{
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+    }
+    .navlogo{
+        width: 10%;
+        padding: 2% 0% 0% 6%;
     }
     .header-second-section{
         display: none;
@@ -1217,6 +1336,96 @@ footer a{
     .iconForMobile{
         width: 55%;
     }
+    .forMobileDropdown{
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        z-index: 1;
+        padding-bottom: 60px;
+    }
+    .dropdownButtons{
+        display: block;
+        margin-bottom: 12px;
+    }
+    .dropdownbutton1,
+    .dropdownbutton2{
+        width: 82%;
+        margin-top: 10px;
+        padding: 5% 2%;
+        border-radius: 40px;
+        position: relative;
+        left: 8%;
+    }
+    .dropdownbutton1{
+        background-color: #000000;
+        color: #ffffff;
+    }
+    .dropdownIcons{
+        display: flex;
+        justify-content: flex-start;
+        margin: 10px 0px 30px 16px;
+    } 
+    .dropdownIcons a{
+        width: 15%;
+        margin-left: 5px;
+        background-color: #000000;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 23px;
+    }
+    .dropdownIcons .fab {
+        background-color:transparent;
+        color: white;
+        padding: 10px;
+        font-size: 25px;
+        margin: 2px;
+    }
+    @font-face {
+        font-family: "qratesisBold";
+        src: url("./assets/InriaSans-Bold.ttf");
+    }
+    #dropdownText1,
+    #dropdownText2,
+    #dropdownText3{
+        width: 80%;
+        font-weight: 600;
+        font-size: 20px;
+        font-family: "qratesisBold";
+        padding: 5px 0px 5px 30px;
+    }
+    .forMobileDropdown .down{
+        font-size: small;
+        padding-top: 20px;
+    }
+    .forMobileDropdown ul{
+        background-color: white;
+        list-style: none;
+        border: transparent;
+        padding-left: 30px;
+    }
+    .forMobileDropdown .accordion-content.show{
+        border: transparent;
+        padding: 0px;
+    }
+    .forMobileDropdown ul li a{
+        color: #000000;
+        text-decoration: none;
+        margin: 16px 1px;
+        font-size: 19px;
+        font-weight: 600;
+    }
+    #dropdownText1{
+        padding: 20px 0px 10px 30px;
+        background-color: white;
+    }
+    .forMobileDropdown .accordion-content{
+        border: -0px transparent;
+    }
+    .mobileSocialIconsForNav .bars{
+        z-index: 99;
+        padding-right: 5%;
+        font-size: 28px;
+    }
     .mobileSocialIconsForNav{
         display: flex;
         justify-content: space-between;
@@ -1246,7 +1455,8 @@ footer a{
         color: white;
     }
     #tabNavIcon{
-     font-size: 30px;
+        padding-top: 12px;
+     font-size: 26px;
     }
     .line-last-header-div{
         display: none;
@@ -1519,4 +1729,4 @@ footer a{
         margin-bottom: 150px;
         margin-top: 90px;
     } 
-    }
+}
