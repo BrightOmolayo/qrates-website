@@ -687,6 +687,1064 @@ footer a{
 }
 /*footer ends here*/
 /* for small screen laptop and tab */
-@media (min-width : 768px) and (max-width : 1024px) {
+@media (min-width : 769px) and (max-width : 1024px) {
+    .sticker{
+        position: relative;
+        top: 120px;
+    } 
+    .links {
+        font-size: small;
+    }
+    .links span {
+        position: relative;
+        right: 30px;
+    }
+    .artist-on-qrates {
+        border: 2px solid black;
+        width: 19%;
+        background-color: white;
+        margin: 4% 0% 0% 6%;
+        padding: 1.2%;
+        font-size: 11px;
+    }
+    aside {
+        margin-top: 40%;
+        font-size: large;
+        font-weight: bold;
+        padding-left: 5%;
+    }
+    .numbers {
+        position: relative;
+        top: 30%;
+        display: flex;
+        margin: 0% 0% 0% 6%;
+    }
+    .yl-studio {
+        border: 2px solid white;
+        width: 11%;
+        padding: 0.7% 1%;
+        position: relative;
+        left: 43%;
+    }
+    .footer-logo {
+        width: 30%;
+        margin-left: 7%;
+        padding-top: 9%;
+    }
+}
+@media (min-width : 481px) and (max-width : 768px) {
     
+    nav{
+        justify-content: space-between;
+        display: flex;
+    }
+    .nav-first{
+        display: none;
+    }
+    .login-button{
+        display: none;
+    }
+    .iconForMobile,
+    .headingforTabView,
+    .okay,
+    .paraforTabView,
+    .buttonforTabview,
+    .icons{
+        display: block;
+    }
+    .header-first-section{
+        display: block;
+        text-align: center;
+    }
+    .header-second-section{
+        display: none;
+    }
+    
+    .header-text{
+        width: 100%;
+        padding:0%;
+        position: relative;
+        top: 100px;
+        display: none;
+    }
+    .why-qrates{
+        display: none;
+        border: 2px solid black;
+        width: 24%;
+        text-align: center;
+        padding: 8px 2px 8px 2px;
+        margin-bottom:35px;
+        font-weight: bold;
+        font-size: small;
+    }
+    .main-first-two-in-one-container{
+        display:none;
+    }
+    
+    .second-container-accordion{
+        width: 46%;
+        margin-top: 11%;
+        margin-bottom: 12%;
+        display: none;
+    }
+    .tabHeaderImgs{
+        display: flex;
+        justify-content:center;
+        margin-bottom:180px;
+    }
+    .first-img{
+        width: 50%;
+        top: 80px;
+        border: 2px solid black;
+        transform: rotate(10deg);
+        margin-right: 20%;
+    }
+    .paraforTabView{
+        display: block;
+        font-size: 23px;
+        margin: 1% 6%;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    .paraforTabView {
+        display: block;
+        font-size: 23px;
+        margin: 1% 6%;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    .okay{
+        width: 20%;
+        position: relative;
+        top:220px;
+        left: 27%;
+        z-index: 9;
+    }
+    .iconForMobile{
+        width: 25%;
+    }
+    .mobileSocialIconsForNav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .buttonforTabview{
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+    }
+    .buttonforTab1,
+    .buttonforTab2{
+        width: 94%;
+        margin:1% 3%;
+        border-radius: 30px;
+        padding: 2% 1%;
+    }
+    .buttonforTab1{
+        color: #000000;
+        background-color: white;
+    }
+    .buttonforTab2{
+        background-color: #000000;
+        color: white;
+    }
+    #tabNavIcon{
+     font-size: 30px;
+    }
+    .line-last-header-div{
+        display: none;
+    }
+    .headingforTabView h1{
+        padding: 0% 12%;
+        margin: 0% 15%;
+        font-size: 47px;
+        color: transparent;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #000000;
+    }
+    .headingforTabView span{
+        color: #000000;
+    }
+    
+    
+        .main-second-container{
+            display: block;
+        }
+        .second-container-first-div{
+            width: 100%;
+            text-align: center;
+            margin: 18% 0% 0% 0%;
+        }
+        .services{
+            border: 3px solid black;
+            width: 24%;
+            position: relative;
+            left: 37%;
+            font-weight: bolder;
+            padding: 7px 4px  7px 4px;
+            margin-top: 5%;
+            margin-bottom: 4%; 
+        }
+        .second-container-first-div-h1{
+            color: transparent;
+            -webkit-text-stroke-width: 0.3px;
+            -webkit-text-stroke-color: #000000;
+            font-size: 260%;
+        }
+        
+        .Two-men-img{
+            width: 55%;
+            margin: 15% 2% 15% 2%;
+            transform: rotate(-10deg);
+            position: relative;
+            left: 24.2%;
+            border: 2px solid black;
+        }
+        .Two-men-img img{
+            display: block;
+        }
+        .second-container-first-div-paragraph{
+            font-size: 118%;
+            padding: 5% 2% 8% 2%;
+            font-weight: bold;
+        }
+        
+        .second-container-first-div button{
+            color: white;
+            background-color: black;
+            width: 37%;
+            border-radius: 44px;
+            height: 48px;
+            font-weight: bold;
+            font-size: medium;
+            margin-top: 0%;
+            margin-bottom: 4%;
+            border: 2px solid black;
+        }
+        .growing-community button{
+            width: 18%;
+            border-radius: 44px;
+            height: 48px;
+            font-size: small;
+            margin-top: 4%;
+            margin-bottom: 6%;
+            background-color: white; 
+            border: 2px solid#000000;
+        }
+           /*div-under-the-first-two-in-one-container*/
+    
+           .div-under-the-first-two-in-one-container{
+            padding: 4% 2% 5% 2%;
+            font-weight: bold;
+            background-color: black;
+            color: white;
+            font-size: 16px;
+            display: none;
+        }
+        .div-under-the-first-two-in-one-container br{
+            display: none;
+        }
+        .under-div-paragragh{
+            padding:2% 0% 0% 5% ;
+            line-height: 180%;
+            display: none;
+        }
+        .div-under-the-first-two-in-one-container a{
+            position: relative;
+            left: 60%;
+            color: white;
+            bottom: 24px;
+        }
+            /*under-fourth-two-in-one-container*/
+    .under-fourth-two-in-one-container{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 6% 0% 6% 0%;
+    }
+    .yl-studio{
+        border: 2px solid white;
+        width: 15%;
+        padding: 1.5% 1%;
+        position: relative;
+        left: 40%;
+    }
+    .under-fourth-two-in-one-container h2{
+        padding: 2.5% 0%;
+    }
+    .under-fourth-two-in-one-container h2 br{
+        display: none;
+    }
+    
+    .main-icons{
+        width: 40%;
+        display: flex;
+        position: relative;
+        left: 33%;
+        margin-top: 8%;
+    }
+    .main-icon-one{
+        background-color: darkcyan;
+        z-index: 99;
+    }
+    .main-icon-two{
+        background-color: khaki;
+        border-radius: 70px;
+        position: relative;
+        right: 14px;
+    }  
+   
+    .under-fourth-two-in-one-container p{
+        margin-bottom: 2%;
+        font-size: 16px;
+        word-spacing: 1px;
+        line-height: 25px;
+    }
+    .under-fourth-two-in-one-container button{
+        width: 95%;
+        background-color: yellow;
+        margin-top: 6%;
+        height: 30px;
+        padding: 2% 1% 3% 1%;
+        border-radius: 40px;
+        border: transparent;
+        font-weight: 600;
+    }
+        /* footer*/
+    footer{
+        background-color: black;
+        padding: 8% 0%;
+        color: white;
+    }
+    footer a{
+        color: white;
+        text-decoration: none;
+        padding: 2px;
+        list-style: none;
+    } 
+    .footerSecondDiv,
+    .footerFirstDiv,
+    .footerFourthDiv,
+    .footerThirdDiv{
+        width: 50%;
+    }
+    .footerLinksFooterforTab a{
+        line-height: 10px;
+    }
+    .footerlinks{
+        display: block;
+        justify-content: space-around;
+        padding: 0px;
+    }
+    .footerLinksFooterforTab{
+        display: flex;
+        margin-left: 4%;
+        width: 85%;
+    }
+    .footerLinksFooterforTab2{
+        margin-top: 4%;
+    }
+    .footer-last-line{
+        display: block;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+    .footer-logo{
+        width:90%;
+        margin-left: 7%;
+        padding-top: 3%;
+    }
+    .iconsforDesktop{
+        display: none;
+    }
+    
+    .footer-social-icon{
+        padding: 9% 3% 0% 0%;
+        width: 99%;
+    }
+    .footerLastDiv{
+        display: flex;
+        padding: 0% 3%;
+    }
+    .tdms{
+        display: none;
+    }
+    .tdmsforTab{
+        position: relative;
+        top: 10px;
+        left: 44.5%;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        margin-top: 90px;
+    } 
+    .dropdownIcons{
+        display: flex;
+        justify-content: flex-start;
+        margin: 10px 0px 30px 16px;
+    } 
+    /* .dropdownIcons a{
+        width: 50px;
+        margin-left: 3px;
+        background-color: #000000;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 23px;
+    } */
+    .dropdownIcons a{
+        width: 50px;
+        height: 50px;
+        margin-left: 3px;
+        background-color: #000000;
+        text-align: center;
+        border-radius: 50%;
+        /* font-size: 29%; */
+    }
+    .dropdownIcons .fab {
+        background-color:transparent;
+        color: white;
+        padding:6px  3px 3px 3px;
+        font-size:30px;
+        margin: 2px;
+    }
+    .forMobileDropdown{
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        z-index: 1;
+        padding-bottom: 60px;
+    }
+    .dropdownButtons{
+        display: block;
+        margin-bottom: 12px;
+    }
+    .dropdownbutton1,
+    .dropdownbutton2{
+        width: 95%;
+        margin-top: 10px;
+        padding: 2% 1%;
+        border-radius: 40px;
+        margin: 2%;
+        /* position: relative;
+        left: 8%; */
+    }
+    .dropdownbutton1{
+        background-color: #000000;
+        color: #ffffff;
+    }
+    .dropdownbutton2{
+        background-color: #ffffff;
+        color: #000000;
+    }
+    .dropdownIcons{
+        display: flex;
+        justify-content: flex-start;
+        margin: 10px 0px 30px 16px;
+    } 
+    @font-face {
+        font-family: "qratesisBold";
+        src: url("./assets/InriaSans-Bold.ttf");
+    }
+    #dropdownText1,
+    #dropdownText2,
+    #dropdownText3{
+        width: 80%;
+        font-weight: 600;
+        font-size: 20px;
+        font-family: "qratesisBold";
+        padding: 5px 0px 5px 30px;
+    }
+    .forMobileDropdown .down{
+        font-size: small;
+        position: relative;
+        right: 60%;
+        padding-top: 20px;
+    }
+    .forMobileDropdown ul{
+        background-color: white;
+        list-style: none;
+        border: transparent;
+        padding-left: 30px;
+    }
+    .forMobileDropdown .accordion-content.show{
+        border: transparent;
+        padding: 0px;
+    }
+    .forMobileDropdown ul li a{
+        color: #000000;
+        text-decoration: none;
+        margin: 16px 1px;
+        font-size: 19px;
+        font-weight: 600;
+    }
+    #dropdownText1{
+        padding: 20px 0px 10px 30px;
+        background-color: white;
+    }
+    .forMobileDropdown .accordion-content{
+        border: -0px transparent;
+    }
+    #bars{
+        z-index: 99;
+    }
+    .headingforTabView h1 {
+        padding: 0% 12%;
+        margin: 0% 15%;
+        font-size: 47px;
+        color: transparent;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: #000000;
+    }
+    .tabHeaderImgs {
+        border: 0px solid black;
+        width: 80%;
+        position: relative;
+        bottom: 30px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    .first-img{
+        border: 2px solid black;
+        transform: rotate(3deg);
+        width: 63%;
+        margin-bottom: 30px;
+        position: relative;
+        left: 16%;
+    }
+    .first-paragraph,
+    .links{
+        display: none;
+    }
+    .community{
+        color: black;
+        width: 18%;
+        position: relative;
+        left: 42%;
+        border: 2px solid black;
+        padding: 7px 4px  7px 4px;
+        margin-top: 5%;
+        margin-bottom: 2%; 
+        font-size: medium;
+    }
+    .main-fourth-container{
+        display: flex;
+        margin-top: 60px;
+    }
+}
+@media (min-width : 320px) and (max-width : 480px) {
+    nav{
+        justify-content: space-between;
+        display: flex;
+    }
+    .nav-first{
+        display: none;
+    }
+    .login-button{
+        display: none;
+    }
+    /*header-first-section*/
+    .header-first-section{
+        display: block;
+        text-align: center;
+        font-family: "inria";
+    }
+    .mobileSocialIconsForNav{
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+    }
+    .navlogo{
+        width: 10%;
+        padding: 2% 0% 0% 6%;
+    }
+    .header-second-section{
+        display: none;
+    }
+    .header-text{
+        width: 100%;
+        padding:0%;
+        position: relative;
+        top: 100px;
+        display: none;
+    }
+    
+
+    .why-qrates{
+        display: none;
+    }
+    .main-first-two-in-one-container{
+        display:none;
+    }
+    
+    .second-container-accordion{
+        width: 46%;
+        margin-top: 11%;
+        margin-bottom: 12%;
+        display: none;
+    }
+    /* .tabHeaderImgs{
+        display: flex;
+        justify-content:center;
+        margin-bottom:80px;
+    }
+    .first-img{
+        width: 80%;
+        top: 28px;
+        border: 2px solid black;
+        transform: rotate(11deg);
+        margin-right: 15%;
+    } */
+    .tabHeaderImgs {
+        border: 0px solid black;
+        width: 95%;
+        position: relative;
+        bottom: 30px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    .first-img{
+        border: 2px solid black;
+        transform: rotate(3deg);
+        width: 73%;
+        margin-bottom: 30px;
+        position: relative;
+        left: 11%;
+        margin-top: 50px;
+    }
+    .paraforTabView{
+        display: block;
+        font-size: 21px;
+        margin: 1% 6%;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    
+    .paraforTabView br{
+        display: none;
+    }
+    .okay{
+        width: 24%;
+        position: relative;
+        top:110px;
+        left: 13%;
+        z-index: 9;
+    }
+    .iconForMobile{
+        width: 55%;
+        display: block;
+    }
+    .forMobileDropdown{
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        z-index: 1;
+        padding-bottom: 60px;
+    }
+    .dropdownButtons{
+        display: block;
+        margin-bottom: 12px;
+    }
+    .dropdownbutton1,
+    .dropdownbutton2{
+        width: 82%;
+        margin-top: 10px;
+        padding: 5% 2%;
+        border-radius: 40px;
+        position: relative;
+        left: 8%;
+    }
+    .dropdownbutton2{
+        background-color: white;
+        font-weight: 600;
+        color: #000000;
+    }
+    .dropdownbutton1{
+        background-color: #000000;
+        color: #ffffff;
+    }
+    .dropdownIcons{
+        display: flex;
+        justify-content: flex-start;
+        margin: 10px 0px 30px 16px;
+    } 
+    .dropdownIcons a{
+        width: 15%;
+        margin-left: 5px;
+        background-color: #000000;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 23px;
+    }
+    .dropdownIcons .fab {
+        background-color:transparent;
+        color: white;
+        padding: 10px;
+        font-size: 25px;
+        margin: 2px;
+    }
+    @font-face {
+        font-family: "qratesisBold";
+        src: url("./assets/InriaSans-Bold.ttf");
+    }
+    #dropdownText1,
+    #dropdownText2,
+    #dropdownText3{
+        width: 80%;
+        font-weight: 600;
+        font-size: 20px;
+        font-family: "qratesisBold";
+        padding: 5px 0px 5px 30px;
+    }
+    .forMobileDropdown .down{
+        font-size: small;
+        padding-top: 20px;
+    }
+    .forMobileDropdown ul{
+        background-color: white;
+        list-style: none;
+        border: transparent;
+        padding-left: 30px;
+    }
+    .forMobileDropdown .accordion-content.show{
+        border: transparent;
+        padding: 0px;
+    }
+    .forMobileDropdown ul li a{
+        color: #000000;
+        text-decoration: none;
+        margin: 16px 1px;
+        font-size: 19px;
+        font-weight: 600;
+    }
+    
+
+    #dropdownText1{
+        padding: 20px 0px 10px 30px;
+        background-color: white;
+    }
+    .forMobileDropdown .accordion-content{
+        border: -0px transparent;
+    }
+    .mobileSocialIconsForNav .bars{
+        z-index: 99;
+        padding-right: 5%;
+        font-size: 28px;
+    }
+    .mobileSocialIconsForNav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .buttonforTabview{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    }
+    .buttonforTab1,
+    .buttonforTab2{
+        width: 92%;
+        margin:1% 3%;
+        border-radius: 30px;
+        padding: 4% 1%;
+        font-size: small;
+    }
+    .first-paragraph{
+        display: none;
+    }
+    .buttonforTab1{
+        color: #000000;
+        background-color: white;
+    }
+    .buttonforTab2{
+        background-color: #000000;
+        color: white;
+    }
+    #tabNavIcon{
+        padding-top: 12px;
+     font-size: 26px;
+    }
+    .line-last-header-div{
+        display: none;
+    }
+    .headingforTabView{
+        display: block;
+    }
+    .headingforTabView h1{
+        padding: 0% 1%;
+        margin: 15% 0% 0% 0%;
+        font-size: 49px;
+        color: transparent;
+        -webkit-text-stroke-width: 0.3px;
+        -webkit-text-stroke-color: #000000;
+    }
+    .headingforTabView span{
+        color: #000000;
+    }
+        /*div-under-the-first-two-in-one-container*/
+    
+    .div-under-the-first-two-in-one-container{
+        padding: 4% 2% 5% 2%;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        font-size: 16px;
+        display: none;
+    }
+    .div-under-the-first-two-in-one-container br{
+        display: none;
+    }
+    .under-div-paragragh{
+        padding:2% 0% 0% 5% ;
+        line-height: 180%;
+    }
+    .div-under-the-first-two-in-one-container a{
+        position: relative;
+        left: 10%;
+        color: white;
+        bottom: 24px;
+    }
+    .main-second-container{
+        display: block;
+    }
+    .second-container-first-div{
+        width: 100%;
+        text-align: center;
+        margin: 18% 0% 0% 0%;
+    }
+    .services{
+        border: 3px solid black;
+        width: 24%;
+        position: relative;
+        left: 37%;
+        font-weight: bolder;
+        padding: 7px 4px  7px 4px;
+        margin-top: 5%;
+        margin-bottom: 4%; 
+        display: none;
+    }
+    .second-container-first-div-h1{
+        color: transparent;
+        -webkit-text-stroke-width: 0.3px;
+        -webkit-text-stroke-color: #000000;
+        font-size: 260%;
+    }
+    .growing-community-paragraph{
+        font-weight: bold;
+        line-height: 130%;
+        margin:40px 14px;
+    }
+    .growing-community-paragraph br{
+        display: none;
+    }
+    .Two-men-img{
+        width: 55%;
+        margin: 15% 2% 15% 2%;
+        transform: rotate(-10deg);
+        position: relative;
+        left: 24.2%;
+        border: 2px solid black;
+    }
+    .Two-men-img img{
+        display: block;
+    }
+    .second-container-first-div-paragraph{
+        font-size: 118%;
+        padding: 5% 2% 8% 2%;
+        font-weight: bold;
+    }
+    
+    .second-container-first-div button{
+        color: white;
+        background-color: black;
+        width: 50%;
+        border-radius: 44px;
+        height: 48px;
+        font-weight: normal;
+        font-size: medium;
+        margin-top: 0%;
+        margin-bottom: 4%;
+        border: 2px solid black;
+    }
+    .growing-community button{
+        width: 18%;
+        border-radius: 44px;
+        height: 48px;
+        font-size: small;
+        margin-top: 4%;
+        margin-bottom: 6%;
+        background-color: white; 
+        border: 2px solid#000000;
+        display: none;
+    }
+    .community{
+        color: black;
+        width: 9%;
+        position: relative;
+        left: 45%;
+        border: 2px solid black;
+        padding: 7px 4px  7px 4px;
+        margin-top: 5%;
+        margin-bottom: 2%; 
+        font-size: larger;
+        display: none;
+    }
+    .growing-community-h2{
+        font-size: 180%;
+        margin: 4% 0% 6% 0%;
+    } 
+    .growing-community-h2 br{
+        display: none;
+    }
+    .links{
+        display: none;
+        padding: 5% 0% 5% 0%;
+        justify-content: space-evenly;
+    }
+    .main-fourth-container{
+        display: none;
+    }
+        /*under-fourth-two-in-one-container*/
+    .under-fourth-two-in-one-container{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 6% 0% 6% 0%;
+    }
+    .yl-studio{
+        border: 2px solid white;
+        width: 35%;
+        padding: 1.5% 1%;
+        position: relative;
+        left: 30%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    #vinyl{
+        font-size: 12px;
+    }
+    .under-fourth-two-in-one-container h2{
+        margin-top: 30px;
+        padding: 3.5% 1.5%;
+        font-size: 35px;
+    }
+    .under-fourth-two-in-one-container h2 br{
+        display: none;
+    }
+    
+    .main-icons{
+        width: 80%;
+        display: flex;
+        position: relative;
+        left: 18%;
+        margin-top: 60px;
+    }
+    .main-icon-one{
+        background-color: darkcyan;
+        z-index: 99;
+    }
+    .main-icon-two{
+        background-color: khaki;
+        border-radius: 70px;
+        position: relative;
+        right: 14px;
+    }  
+   
+    .under-fourth-two-in-one-container p{
+        margin: 4% 1%;
+        font-size: 16px;
+        word-spacing: 1px;
+        line-height: 25px;
+    }
+    .under-fourth-two-in-one-container button{
+        width: 92%;
+        background-color: yellow;
+        margin-top: 60px;
+        height: 0px;
+        padding: 4% 1% 8% 1%;
+        border-radius: 40px;
+        border: transparent;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+        /* footer*/
+    footer{
+        background-color: black;
+        padding: 18% 0%;
+        margin-top: -1px;
+        color: white;
+        /* border: 2px solid magenta; */
+    }
+    footer a{
+        color: white;
+        text-decoration: none;
+        padding: 2px;
+        list-style: none;
+    } 
+    .footerSecondDiv,
+    .footerFirstDiv,
+    .footerFourthDiv,
+    .footerThirdDiv{
+        width: 50%;
+    }
+    .footerLinksFooterforTab a{
+        line-height: 10px;
+    }
+    .footerlinks{
+        display: block;
+        justify-content: space-around;
+        padding-right: 0px;
+    }
+    .footerLinksFooterforTab{
+        display: flex;
+        margin-left: 7%;
+        width: 95%;
+    }
+    footer h4{
+        font-size: 20px;
+    }
+    .footerLinksFooterforTab li{
+        font-size: 18px;
+    }
+    .footerLinksFooterforTab2{
+        margin-top: 10%;
+    }
+    .footer-last-line{
+        display: block;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+    .footer-logo{
+        width:85%;
+        margin-left: 7%;
+        padding-top: 3%;
+        margin-bottom: 60px;
+    }
+    .iconsforDesktop{
+        display: none;
+    }
+    
+    .footer-social-icon{
+        padding: 9% 3% 0% 0%;
+        width: 99%;
+    }
+    .footerLastDiv{
+        display: flex;
+        padding: 0% 3%;
+    }
+    .tdms{
+        display: none;
+    }
+    .tdmsforTab{
+        position: relative;
+        top: 10px;
+        left: 34.5%;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 150px;
+        margin-top: 90px;
+    } 
 }
